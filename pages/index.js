@@ -5,7 +5,7 @@ function IndexPage() {
     <Layout>
       <p>
         {' '}
-        Merhaba <b>İndex</b> Sayfasındasın.
+        Merhaba <b>İndex</b> Sayfasındasın. Murat
       </p>
     </Layout>
   )
