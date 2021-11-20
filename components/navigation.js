@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import styles from './nav.module.css'
 
 function Navigation() {
   return (
@@ -8,14 +9,14 @@ function Navigation() {
           pathname: '/'
         }}
       >
-        <a>Index</a>
+        <a className={styles.Link}>Index</a>
       </Link>
       <Link
         href={{
           pathname: '/about'
         }}
       >
-        <a>About</a>
+        <a style={{ color: 'green' }}> About</a>
       </Link>
     </nav>
   )
